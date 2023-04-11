@@ -5,27 +5,32 @@ body {
 }
 
 .navbar-dark {
-    --bs-navbar-hover-color: rgba(40, 4, 35, 0.75);
-    --bs-navbar-disabled-color: rgba(46, 36, 36, 0.62);
+    --bs-navbar-hover-color: rgb(255, 175, 244);
+    --bs-navbar-disabled-color: rgb(146, 146, 146);
     --bs-navbar-active-color: rgb(255, 255, 255);
     --bs-navbar-brand-color: rgb(255, 255, 255);
-    --bs-navbar-brand-hover-color: rgba(255, 0, 221, 0.75);
+    --bs-navbar-brand-hover-color: rgb(255, 175, 244);
     --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
 }
 .bg-dark {
     --bs-bg-opacity: 1;
-    background-color: rgba(40, 4, 35, 1) !important;
+    background-color: rgb(49, 0, 48) !important;
 }
 
 .navbar-toggler {
     border: var(--bs-border-width) solid rgba(252, 167, 255, 0.9);
 }
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
 .homepage {
     padding-top: 10px;
 }
 
 .footer {
-    background-color: rgba(40, 4, 35, 1) !important;
+    background-color: rgb(49, 0, 48) !important;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
