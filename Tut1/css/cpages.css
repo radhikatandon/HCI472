@@ -28,7 +28,7 @@ body {
 .homepage {
     padding-top: 10px;
 }
-
+/*footer not updating*/
 .footer {
     background-color: rgb(49, 0, 48) !important;
     color: rgb(255, 255, 255);
